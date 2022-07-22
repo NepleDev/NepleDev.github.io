@@ -1,47 +1,22 @@
-```
-┌───────────────────────────────────────────────┐
-                                       _       
-     __ _  ___   ___  _ __ _ __ ___   (_) ___  
-    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
-   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
-    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
-    |___/                                      
-			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
-└───────────────────────────────────────────────┘
-```
+# foo-web-project
 
-# goormIDE
-Welcome to goormIDE!
+## Commit convention
+### 커밋 종류
+- feat : 기능 구현
+- fix : 자잘한 수정
+- docs : 문서 작성
+- style : 코드 포맷팅, 세미콜론 누락 등 코드 변경이 없는 경우
+- refactor : 리팩토링
+- test : 테스트 코드 작성
+- chore : 빌드 업무 수정, 패키지 매니저 수정 등 잡무
 
-goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
-**DEVELOP WITH EXCELLENCE**  
+### 커밋 스타일
+- 종류(패키지): 메세지
 
-`Happy coding! The goormIDE team`
-
-
-## 🔧 Tip & Guide
-
-* Command feature
-	* You can simply run your script using the shortcut icons on the top right.
-	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
-	
-* Get URL and Port
-	* Click `PROJECT > URL/PORT` in top menu bar.
-	* You can get default URL/Port and add URL/Port in the top menu.
-
-* Useful shortcut
-	
-| Shortcuts name     | Command (Mac) | Command (Window) |
-| ------------------ | :-----------: | :--------------: |
-| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
-| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
-| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
-| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
-| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
-| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
-| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
-
-## 💬 Support & Documentation
-
-Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
-To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+### 예시
+- feat(common, game-server, game-frontend): 게임 시작 기능 구현
+- fix(game-frontend): 게임 시작이 제대로 안 되던 버그 수정
+- style(game-frontend): 린트 반영
+- chore(game-frontend): lodash 디펜던시 추가
+- refactor(game-frontend): 게임 시작 기능 리팩토링
+- docs(game-frontend): README 작성
